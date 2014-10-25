@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>{{ title }}</title>
+
+    <link rel="stylesheet" href="stylesheets/font-awesome/font-awesome.css"/>
+    <link rel="stylesheet" href="stylesheets/bootstrap/bootstrap.css"/>
+
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+
+    <script type="text/javascript" src="js/phaser.js"></script>
+    <script type="text/javascript" src="js/iridium.js"></script>
+</head>
+<body>
+    <div id="wrapper" class="wrapper container">
+        <div id="header" class="header row">
+            <h1>Iridium</h1>
+        </div>
+
+        <div id="content" class="content row">
+            <div id="game" class="game col-xs-12"></div>
+        </div>
+
+        <div id="footer" class="footer row">
+            Diamond Tooth Games <i class="fa fa-copyright"></i> 2014
+        </div>
+
+        <script src="js/jquery/jquery-1.11.1.js"></script>
+        <script src="js/bootstrap/bootstrap.js"></script>
+    </div>
+</body>
+</html>
